@@ -14,7 +14,7 @@ public class WaterEmitter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (currentCount <= 0) {
-      GameObject waterSphere = (GameObject)Instantiate(sourceObject, transform.position, transform.rotation, transform);
+      GameObject waterSphere = (GameObject)Instantiate(sourceObject, /*transform.position, transform.rotation,*/ transform);
       currentCount = countDown;
     } else {
       currentCount--;
