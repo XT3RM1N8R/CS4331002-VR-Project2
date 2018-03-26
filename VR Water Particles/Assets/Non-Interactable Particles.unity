@@ -140,8 +140,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3079a56fed06c428770ab41f397c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countDown: 5
-  sourceObject: {fileID: 1094395642381130, guid: db8ca9abe5d717e43a1f1816911e33a0,
+  canEmit: 1
+  countDown: 1
+  emitVelocity: 100
+  sourceObject: {fileID: 54800590254632418, guid: db8ca9abe5d717e43a1f1816911e33a0,
     type: 2}
   currentCount: 0
 --- !u!4 &11308755
@@ -215,7 +217,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -240,7 +242,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60270445}
   m_LocalRotation: {x: 0.3210287, y: -0.26324102, z: 0.09338466, w: 0.9049442}
-  m_LocalPosition: {x: 239.08, y: 24.81, z: 248.28}
+  m_LocalPosition: {x: 247.495, y: 37.543, z: 235.039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3788,7 +3790,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.64
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
