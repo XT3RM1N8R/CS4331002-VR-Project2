@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Non-Interactable Particles.unity
-  isLoaded: 1
-  isActive: 1
