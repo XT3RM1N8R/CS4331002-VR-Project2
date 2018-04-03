@@ -8,7 +8,7 @@ public class TeleportTerrain : MonoBehaviour {
 		var player = GameObject.Find("FPSController");
 		player.transform.position = new Vector3(0, 0, 0);
 		Screen.lockCursor = true;
-		var playerevent = GameObject.Find("EventSystem");
+		var playerevent = GameObject.Find("TeleportPlayer");
 		playerevent.SetActive (false);
 
 	}
