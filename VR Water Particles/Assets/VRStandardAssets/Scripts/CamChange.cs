@@ -24,7 +24,7 @@ public class CamChange : MonoBehaviour {
 
 		if (Input.GetKeyDown ("9")) {
 			Screen.lockCursor = false;
-			SceneManager.LoadScene ("Non-Interactable Particles", LoadSceneMode.Single);
+			SceneManager.LoadScene ("StartingScene", LoadSceneMode.Single);
 		}
 	}
 

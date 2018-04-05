@@ -13,4 +13,8 @@ public class SceneChooser : MonoBehaviour {
 	public void SwitchScenetoEllsworth(){
 		SceneManager.LoadScene ("EllsworthScene", LoadSceneMode.Single);
 	}
+
+	public void SwitchScenetoLubbock(){
+		SceneManager.LoadScene ("Non-Interactable Particles", LoadSceneMode.Single);
+	}
 }

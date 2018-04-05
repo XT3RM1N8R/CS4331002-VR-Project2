@@ -657,10 +657,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3079a56fed06c428770ab41f397c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canEmit: 0
+  canEmit: 1
   emitAmount: 1
   countDown: 1
-  emitVelocity: 100
+  emitVelocity: 20
   sourceObject: {fileID: 54800590254632418, guid: db8ca9abe5d717e43a1f1816911e33a0,
     type: 2}
   currentCount: 0
@@ -916,7 +916,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 441937888}
-        m_MethodName: camMainMove
+        m_MethodName: teleportEllsworth
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1240,7 +1240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1967292146
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -1355,7 +1355,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1441048355
+  randomSeed: -194323167
   InitialModule:
     serializedVersion: 3
     enabled: 1
