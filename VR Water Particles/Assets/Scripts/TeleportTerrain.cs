@@ -10,7 +10,7 @@ public class TeleportTerrain : MonoBehaviour {
 		startingcam.SetActive (false);
 
 		objects [0].SetActive (true);
-		objects[0].transform.position = new Vector3(18,23, 27);
+		objects[0].transform.position = new Vector3(18,53,27);
 		Screen.lockCursor = true;
 
 		var playerevent = GameObject.Find("TeleportPlayer");
