@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8839227, g: 0.69889104, b: 0.52786916, a: 1}
+  m_IndirectSpecularColor: {r: 0.8840257, g: 0.6989735, b: 0.5278062, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1022,10 +1022,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSensitivity: 90
-  climbSpeed: 4
+  climbSpeed: 50
   normalMoveSpeed: 10
-  slowMoveFactor: 0.25
-  fastMoveFactor: 3
+  slowMoveFactor: 1
+  fastMoveFactor: 10
 --- !u!81 &1285778512
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1136,7 +1136,7 @@ Prefab:
     - target: {fileID: 198588391944103666, guid: 69b688b73c3004347b8a5556f9b4de42,
         type: 2}
       propertyPath: randomSeed
-      value: -1938919386
+      value: 2017502595
       objectReference: {fileID: 0}
     - target: {fileID: 199936642723359726, guid: 69b688b73c3004347b8a5556f9b4de42,
         type: 2}
@@ -1146,12 +1146,64 @@ Prefab:
     - target: {fileID: 198588391944103666, guid: 69b688b73c3004347b8a5556f9b4de42,
         type: 2}
       propertyPath: ShapeModule.radius.value
-      value: 50
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 114844504689221752, guid: 69b688b73c3004347b8a5556f9b4de42,
         type: 2}
       propertyPath: DistanceToDestroy
-      value: 250
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 198588391944103666, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114479409552392792, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: m_ParticleMass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 199936642723359726, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 199936642723359726, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198588391944103666, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341342223972394, guid: 69b688b73c3004347b8a5556f9b4de42, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341342223972394, guid: 69b688b73c3004347b8a5556f9b4de42, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341342223972394, guid: 69b688b73c3004347b8a5556f9b4de42, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 199936642723359726, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114631289093457066, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: _depthMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114479409552392792, guid: 69b688b73c3004347b8a5556f9b4de42,
+        type: 2}
+      propertyPath: m_SmoothingDistance
+      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69b688b73c3004347b8a5556f9b4de42, type: 2}
