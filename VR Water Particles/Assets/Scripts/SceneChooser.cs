@@ -15,6 +15,6 @@ public class SceneChooser : MonoBehaviour {
 	}
 
 	public void SwitchScenetoLubbock(){
-		SceneManager.LoadScene ("Non-Interactable Particles", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Lubbock", LoadSceneMode.Single);
 	}
 }

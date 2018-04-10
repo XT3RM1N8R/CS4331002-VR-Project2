@@ -9,47 +9,84 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1687810434953536}
+  m_RootGameObject: {fileID: 1363319375330020}
   m_IsPrefabParent: 1
---- !u!1 &1687810434953536
+--- !u!1 &1363319375330020
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4949257998007924}
-  - component: {fileID: 114775292354439788}
-  - component: {fileID: 198759331504395174}
-  - component: {fileID: 199064813235271512}
-  - component: {fileID: 114364777296309760}
-  - component: {fileID: 114923708969697102}
+  - component: {fileID: 4341342223972394}
+  - component: {fileID: 114479409552392792}
+  - component: {fileID: 198588391944103666}
+  - component: {fileID: 199936642723359726}
+  - component: {fileID: 114631289093457066}
+  - component: {fileID: 114639024032917402}
+  - component: {fileID: 114844504689221752}
   m_Layer: 0
-  m_Name: Fluid Particle System
+  m_Name: Fluid Particle System 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4949257998007924
+--- !u!4 &4341342223972394
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
+  m_GameObject: {fileID: 1363319375330020}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 51.58, y: 213.85, z: 78.35}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 250, y: 100, z: 250}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114364777296309760
+--- !u!114 &114479409552392792
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
+  m_GameObject: {fileID: 1363319375330020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1114180116, guid: b435991485f6c8a4f9af5ca764dd7f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CreatedObj: 1
+  m_DestroyedObj: 0
+  m_EditorFoldout: 1
+  m_SolverEnabled: 1
+  m_EnableHardwareAcceleration: 1
+  m_FluidType: 0
+  m_Dimensions: 0
+  m_CullingType: 0
+  m_SmoothingDistance: 150
+  m_ParticleMass: 200
+  m_Density: 3000
+  m_MinimumDensity: 0.000000001
+  m_Viscosity: 10
+  m_Turbulence: 1
+  m_SurfaceTension: 5
+  m_GasConstant: 50
+  m_BuoyancyCoefficient: 0
+  m_SimulationScale: 1
+  m_FluidSettingsFoldoutEditor: 1
+  m_PhysicalPropertiesFoldoutEditor: 1
+  m_PluginsFoldoutEditor: 1
+  m_PrewarmTimeScale: 4
+  m_CollisionForceModifier: 1
+  m_ParticleSystem: {fileID: 198588391944103666}
+  m_Prewarm: 0
+--- !u!114 &114631289093457066
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363319375330020}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2117351184, guid: b435991485f6c8a4f9af5ca764dd7f07, type: 3}
@@ -73,48 +110,12 @@ MonoBehaviour:
     type: 3}
   _blurShader: {fileID: 4800000, guid: 45c21a9660dfc664c916e011b814db0e, type: 3}
   _compositeShader: {fileID: 4800000, guid: 2838a75643581b446ad8e2e88931ecf7, type: 3}
---- !u!114 &114775292354439788
+--- !u!114 &114639024032917402
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1114180116, guid: b435991485f6c8a4f9af5ca764dd7f07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CreatedObj: 1
-  m_DestroyedObj: 0
-  m_EditorFoldout: 1
-  m_SolverEnabled: 1
-  m_EnableHardwareAcceleration: 1
-  m_FluidType: 0
-  m_Dimensions: 0
-  m_CullingType: 0
-  m_SmoothingDistance: 0.38125
-  m_ParticleMass: 7.625
-  m_Density: 998.29
-  m_MinimumDensity: 499.145
-  m_Viscosity: 2
-  m_Turbulence: 0.2
-  m_SurfaceTension: 0.728
-  m_GasConstant: 0.01
-  m_BuoyancyCoefficient: 0
-  m_SimulationScale: 1
-  m_FluidSettingsFoldoutEditor: 0
-  m_PhysicalPropertiesFoldoutEditor: 0
-  m_PluginsFoldoutEditor: 0
-  m_PrewarmTimeScale: 4
-  m_CollisionForceModifier: 1
-  m_ParticleSystem: {fileID: 198759331504395174}
-  m_Prewarm: 0
---- !u!114 &114923708969697102
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
+  m_GameObject: {fileID: 1363319375330020}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 679533226, guid: b435991485f6c8a4f9af5ca764dd7f07, type: 3}
@@ -122,8 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CreatedObj: 1
   m_DestroyedObj: 0
-  m_EditorFoldout: 1
-  m_Fluid: {fileID: 114775292354439788}
+  m_EditorFoldout: 0
+  m_Fluid: {fileID: 114479409552392792}
   m_Weight: 0
   m_MonoScriptInitialized: 1
   m_IncludeFluidGroup: 0
@@ -142,13 +143,13 @@ MonoBehaviour:
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: 0.25
+        value: 0.16892242
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     m_MinCurve:
       serializedVersion: 2
       m_Curve:
@@ -174,14 +175,26 @@ MonoBehaviour:
     m_IsSigned: 0
   m_Range: {x: 499.145, y: 4991.4497}
   m_Smoothing: 0.25
---- !u!198 &198759331504395174
-ParticleSystem:
+--- !u!114 &114844504689221752
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
+  m_GameObject: {fileID: 1363319375330020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3855b8cfd5bb04b920587fa75333a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DistanceToDestroy: 250
+--- !u!198 &198588391944103666
+ParticleSystem:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363319375330020}
   serializedVersion: 5
-  lengthInSec: 5
+  lengthInSec: 1
   simulationSpeed: 0
   looping: 1
   prewarm: 0
@@ -233,7 +246,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1906162627
+  randomSeed: 1299738719
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -385,7 +398,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.571875
+      scalar: 1.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -628,14 +641,14 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    randomizeRotationDirection: 0
+    randomizeRotationDirection: 1
     maxNumParticles: 3000
     size3D: 0
     rotation3D: 1
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 100
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -698,7 +711,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 20
+      value: 50
       mode: 0
       spread: 0
       speed:
@@ -793,7 +806,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 300
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -2190,17 +2203,17 @@ ParticleSystem:
           time: 0
           value: 0
           inSlope: 0
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
           time: 1
           value: 1
-          inSlope: 1
-          outSlope: 0
+          inSlope: -1.7273315
+          outSlope: -1.7273315
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 4
+        m_RotationOrder: 0
       minCurve:
         serializedVersion: 2
         m_Curve:
@@ -2555,7 +2568,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2640,10 +2653,10 @@ ParticleSystem:
     collidesWith:
       serializedVersion: 2
       m_Bits: 4294967295
-    maxCollisionShapes: 256
+    maxCollisionShapes: 2000
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -3436,13 +3449,13 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
---- !u!199 &199064813235271512
+--- !u!199 &199936642723359726
 ParticleSystemRenderer:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687810434953536}
+  m_GameObject: {fileID: 1363319375330020}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -3470,20 +3483,20 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 1
+  m_RenderMode: 4
   m_SortMode: 1
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
   m_CameraVelocityScale: 0
-  m_VelocityScale: 0
-  m_LengthScale: 2
+  m_VelocityScale: 0.1
+  m_LengthScale: 1.7
   m_SortingFudge: 0
   m_NormalDirection: 1
-  m_RenderAlignment: 0
+  m_RenderAlignment: 3
   m_Pivot: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
