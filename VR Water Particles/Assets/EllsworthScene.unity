@@ -600,7 +600,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990297223892940, guid: 82593bbea4b34d840952a64f180e9c9a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: -5.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82593bbea4b34d840952a64f180e9c9a, type: 2}
@@ -2082,7 +2082,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a27addf2843adb84b85dc35adccb5ec3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7fbfec543b7ef0541903bad626eed8fb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2091,7 +2091,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 2.22
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
@@ -2122,7 +2122,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 0.622
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2140,7 +2140,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
