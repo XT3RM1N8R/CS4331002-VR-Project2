@@ -6,7 +6,7 @@ public class TeleportTerrain : MonoBehaviour {
 	public GameObject[] objects;
   public GameObject waterPlane;
 	public void teleportLubbock(){
-    beginWaterRise();
+    startScene();
 		var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
@@ -24,7 +24,7 @@ public class TeleportTerrain : MonoBehaviour {
 
 
 	public void teleportDenver() {
-    beginWaterRise();
+    startScene();
     var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
@@ -41,7 +41,7 @@ public class TeleportTerrain : MonoBehaviour {
 	}
 
 	public void teleportEllsworth() {
-    beginWaterRise();
+    startScene();
     var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
@@ -57,8 +57,9 @@ public class TeleportTerrain : MonoBehaviour {
 
 	}
 
-  public void beginWaterRise() {
+  public void startScene() {
     waterPlane.SetActive(true);
+    CamChange.sceneStarted = true;
   }
 }
 	
