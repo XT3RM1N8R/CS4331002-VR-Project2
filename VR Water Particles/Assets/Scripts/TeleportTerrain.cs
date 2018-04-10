@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TeleportTerrain : MonoBehaviour {
 	public GameObject[] objects;
-
+  public GameObject waterPlane;
 	public void teleportLubbock(){
+    beginWaterRise();
 		var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
@@ -22,8 +23,9 @@ public class TeleportTerrain : MonoBehaviour {
 	}
 
 
-	public void teleportDenver(){
-		var startingcam = GameObject.Find ("StartingCam");
+	public void teleportDenver() {
+    beginWaterRise();
+    var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
 		objects [0].SetActive (true);
@@ -38,8 +40,9 @@ public class TeleportTerrain : MonoBehaviour {
 
 	}
 
-	public void teleportEllsworth(){
-		var startingcam = GameObject.Find ("StartingCam");
+	public void teleportEllsworth() {
+    beginWaterRise();
+    var startingcam = GameObject.Find ("StartingCam");
 		startingcam.SetActive (false);
 
 		objects [0].SetActive (true);
@@ -53,5 +56,9 @@ public class TeleportTerrain : MonoBehaviour {
 		canvas.SetActive (false);
 
 	}
+
+  public void beginWaterRise() {
+    waterPlane.SetActive(true);
+  }
 }
 	
