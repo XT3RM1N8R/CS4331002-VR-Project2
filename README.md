@@ -17,7 +17,7 @@ Demo Link
 Download Link
 
 ### Instructions
-Our project requires the downgrade to Unity 2017.1.3f1 to implement our Fluvio particle system. After having the correct version of Unity running and installing our project, you should be able to run our program. 
+Our project requires the downgrade to Unity 2017.1.3 to implement our Fluvio particle system. After having the correct version of Unity running and installing our project, you should be able to run our program. 
 
 After hitting run a starting menu will appear which will give some instruction on some key commands and will allow the user to choose 1 of 3 terrains. After choosing a terrain a second menu will appear which will prompt the user to go to terrain. Once the user clicks go to terrain the scene will start with the user in first-person. The user will be able to view the simulated scene, by pushing "7" the user can enter third-person mode to obtain a better view of the scene. By pushing "5" the user can enter back into first-person mode. Once the user if finished viewing their particular scene, the user can push "9" to return to the starting menu so the user can choose another scene.
 
