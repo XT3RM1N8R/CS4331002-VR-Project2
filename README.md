@@ -10,6 +10,10 @@ Matthew Jordan - Terrain creation, scene set-up.
 ## Important Links
 Demo Link
 
+<a href="https://assetstore.unity.com/packages/tools/particles-effects/fluvio-free-2888">Fluvio Assets Page</a>
+
+<a href="https://unity3d.com/get-unity/download/archive">Unity Download 2017.1.3</a>
+
 Download Link
 
 ### Instructions
@@ -23,11 +27,17 @@ For our project, we choose 3 unique terrains for the user to choose from.
 #### Lubbock
 Lubbock is a flat terrain with very little hills or terrain changes. This will help the user view a simulation on a flatter surface. 
 
+![ScreenShot](lubbock.png)
+
 #### Denver
 The particular location that we chose near Denver is very mountainous. This will allow the user to see how water flows down mountainous terrain, similiar to a mudslide.
 
+![ScreenShot](denver.png)
+
 #### Ellsworth
 Ellsworth, Maine, is a unique terrain which has valleys. This will show that water flows within the valleys and crevises before affecting the flatter terrain. 
+
+![ScreenShot](ellsworth.png)
 
 ### Camera Controls/UI
 For the camera controls, we thought it would be beneficial if we have both a first-person and third-person view of our terrain. First-person view gives a realistic view of the scene, while a third-person view allows for an overall view of the scene. We downloaded predefined assets for the first-person and third-person controls. 
@@ -62,7 +72,14 @@ public void teleportDenver(){
   ### Partcle System
   For our particle system we decided to use Fluvio, which helps simulate water. This particular particle system has a 3000 particle   limit. Because of this we had to reduce the terrain down to a manageable size. Having an overwhelming amount of particles also reduces performance, so a smaller terrain also helps out performance. 
   
+  <a href="https://assetstore.unity.com/packages/tools/particles-effects/fluvio-free-2888">Fluvio Assets Page</a>
+  
+  ![ScreenShot](particles.png)
+  
   We ran into several problems using other particle systems. Some problems we ran into had to do with poor performing particle systems, particles that just bounced off of each other, and objects that bounced to much. We found that Fluvio has better performance, and the particles worked better when colliding with eachother.
+  
+  ### Conclusion
+  Overall the project was a good intro into Unity. All though we did not finish everything that we wanted to accomplish, we believe that we did a good job for our first project. With more time and more learning, I believe that we could make a great simulation with good visuals and performance. 
   
   
   
