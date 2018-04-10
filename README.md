@@ -81,5 +81,20 @@ public void teleportDenver(){
   ### Conclusion
   Overall the project was a good intro into Unity. All though we did not finish everything that we wanted to accomplish, we believe that we did a good job for our first project. With more time and more learning, I believe that we could make a great simulation with good visuals and performance. 
   
+  ### Assets
+   <a href="https://assetstore.unity.com/packages/2d/textures-materials/floors/terrain-textures-snow-free-samples-54630">Snow</a>
+   
+   <a href="https://assetstore.unity.com/packages/2d/textures-materials/floors/grass-02-game-ready-29037">Grass</a>
+    
+   <a href="https://assetstore.unity.com/packages/3d/vegetation/trees/free-trees-103208">Tree 01</a>
+   
+   <a href="https://assetstore.unity.com/packages/3d/vegetation/trees/snowy-low-poly-trees-76796">Tree 02</a>
+   
+   <a href="https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633">Skybox</a>
+   
+   <a href="https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/rain-drop-effect-2-59986">Sound</a>
+   
+   <a href="https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427">Buildings</a>
+  
   
   
