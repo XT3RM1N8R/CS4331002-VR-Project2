@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿#if (UNITY_EDITOR)
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 public static class HeightmapFromTexture
@@ -86,3 +87,4 @@ public static class HeightmapFromTexture
 		terrain.SetHeights(0, 0, heightmapData);
 	}
 }
+#endif
