@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: 
     guid: b62ef4a8c87fa764bbfdb7d250ce1c08
   - enabled: 1
+    path: Assets/StartingScene.unity
+    guid: 3a3f00b00f890b84e8a9b8b8e6b7970c
+  - enabled: 1
     path: Assets/Lubbock.unity
     guid: 8aa8f3dd136ab4443a16cd1b177b89f2
   - enabled: 1
@@ -32,6 +35,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EllsworthScene.unity
     guid: 811e9256c823fbc459cd957ad6e69234
-  - enabled: 1
-    path: Assets/StartingScene.unity
-    guid: 3a3f00b00f890b84e8a9b8b8e6b7970c
