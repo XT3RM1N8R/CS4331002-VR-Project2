@@ -10,8 +10,6 @@ Matthew Jordan - Terrain creation, scene set-up, buildings and clouds
 ## Important Links
  <a href="https://youtu.be/VBiHO6CoQ8Q">Video Link</a>
 
-<a href="https://assetstore.unity.com/packages/tools/particles-effects/fluvio-free-2888">Fluvio Assets Page</a>
-
 <a href="https://unity3d.com/get-unity/download/archive">Unity Download 2017.1.3</a>
 
 ### Instructions
@@ -80,6 +78,8 @@ public void teleportDenver(){
   Overall the project was a good intro into Unity. All though we did not finish everything that we wanted to accomplish, we believe that we did a good job for our first project. With more time and more learning, I believe that we could make a great simulation with good visuals and performance. 
   
   ### Assets
+  <a href="https://assetstore.unity.com/packages/tools/particles-effects/fluvio-free-2888">Fluvio Assets Page</a>
+  
    <a href="https://assetstore.unity.com/packages/2d/textures-materials/floors/terrain-textures-snow-free-samples-54630">Snow</a>
    
    <a href="https://assetstore.unity.com/packages/2d/textures-materials/floors/grass-02-game-ready-29037">Grass</a>
@@ -95,6 +95,9 @@ public void teleportDenver(){
    <a href="https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427">Buildings</a>
    
    <a href="https://assetstore.unity.com/packages/3d/3le-low-poly-cloud-pack-65911">Clouds</a>
-
+   
+   <a href="https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126">Text Mesh Pro</a>
+   
+   
   
   
