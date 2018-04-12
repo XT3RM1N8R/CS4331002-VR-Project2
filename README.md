@@ -1,11 +1,11 @@
 # CS4331002-VR-Project2
 
 ## Team Members
-Jordan Coe - Camera controls, FPS controls, Scene changing scripts, partcle deletion scripts
+Jordan Coe - Camera controls, FPS controls, Scene changing scripts, particle deletion scripts
 
-Darien Sokolov - Fluvio particle scripts and implementation
+Darien Sokolov - Fluvio particle scripts and implementation, rising water script
 
-Matthew Jordan - Terrain creation, scene set-up.
+Matthew Jordan - Terrain creation, scene set-up, buildings and clouds
 
 ## Important Links
  <a href="https://youtu.be/VBiHO6CoQ8Q">Video Link</a>
@@ -13,8 +13,6 @@ Matthew Jordan - Terrain creation, scene set-up.
 <a href="https://assetstore.unity.com/packages/tools/particles-effects/fluvio-free-2888">Fluvio Assets Page</a>
 
 <a href="https://unity3d.com/get-unity/download/archive">Unity Download 2017.1.3</a>
-
-Download Link
 
 ### Instructions
 Our project requires the downgrade to Unity 2017.1.3 to implement our Fluvio particle system. After having the correct version of Unity running and installing our project, you should be able to run our program. 
